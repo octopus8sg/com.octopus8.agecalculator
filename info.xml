@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="com.octopus8.agecalculator" type="module">
+  <file>agecalculator</file>
+  <name>Age Calculator</name>
+  <description>Calculate and display contact's age</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Dr. Khindol Madraimov</author>
+    <email>hindol@octopus8.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://octopus8.com</url>
+    <url desc="Documentation">http://octopus8.com</url>
+    <url desc="Support">http://octopus8.com</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2021-06-28</releaseDate>
+  <version>1.0.0</version>
+  <develStage>Maintenance</develStage>
+  <compatibility>
+    <ver>5.38</ver>
+  </compatibility>
+  <comments>Adds a field to calculate and display the age of a contact on the create, view and edit page under Demographics</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Agecalculator</namespace>
+  </civix>
+</extension>
